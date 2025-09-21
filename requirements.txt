@@ -1,2 +1,8 @@
-streamlit>=1.30
-google-generativeai>=0.7.0
+streamlit
+google-generativeai
+gTTS
+pandas
+openpyxl
+pdfplumber
+pypdf
+Pillow
