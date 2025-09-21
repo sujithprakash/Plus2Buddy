@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # ----------------------------- CONFIG -----------------------------
 st.set_page_config(page_title="BoardReady XII", page_icon="🎓", layout="wide")
-st.title("🎓 +2 Buddy")
+st.title("🎓 BoardReady XII")
 st.caption("BoardReady XII is a Streamlit-based learning assistant for CBSE Class 12. It converts any chosen topic into a structured study pack—clear definitions, analogies, step-by-step explanations, text-diagrams, and formula sheets—so students build understanding before memorising. A dedicated Translate & Audio mode renders the same content in major Indian languages with natural speech, widening access for multilingual learners. Ask a Teacher simulates past-paper practice with guided hints and model answers. The interface is simple: pick a subject, choose a topic (or type your own), and generate focused, exam-aligned notes and practice.")
 
 # ------------------------- API KEY -------------------------
@@ -415,4 +415,5 @@ with tab3:
                     st.error(f"LLM error: {e}")
 
 st.caption("Made for CBSE +2 learners • Expand TOPICS dict to mirror your exact syllabus.")
+
 
