@@ -1,0 +1,9 @@
+# Keep Streamlit secrets out of Git
+.streamlit/secrets.toml
+
+# Optional hygiene
+.env
+*.env
+__pycache__/
+*.pyc
+.DS_Store
